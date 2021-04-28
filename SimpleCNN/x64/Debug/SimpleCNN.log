@@ -1,0 +1,26 @@
+﻿  Compiling CUDA source file Kernel.cu...
+  
+  D:\research\coder\SimpleCNN\SimpleCNN\SimpleCNN>"D:\NVIDIA\CUDA11.2\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"D:\NVIDIA\CUDA11.2\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"D:\NVIDIA\CUDA11.2\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\Kernel.cu.obj "D:\research\coder\SimpleCNN\SimpleCNN\SimpleCNN\Kernel.cu" 
+D:\research\coder\SimpleCNN\SimpleCNN\SimpleCNN\KernelCPU.h(288): warning : variable "StartIndex" was declared but never referenced
+  
+D:\research\coder\SimpleCNN\SimpleCNN\SimpleCNN\KernelCUDA.h(342): warning : variable "StartIndex" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(66): warning : variable "imgSize" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(67): warning : variable "d_ConvArray" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(200): warning : variable "InSize" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(324): warning : variable "Batch_Pos" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(354): warning : variable "ConvLen" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(355): warning : variable "ImageSize" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(383): warning : variable "InSize" was declared but never referenced
+  
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(509): warning : variable "InSize" was declared but never referenced
+  
+  Kernel.cu
+D:/research/coder/SimpleCNN/SimpleCNN/SimpleCNN/Kernel.cu(67): warning C4101: “d_ConvArray”: 未引用的局部变量
+  SimpleCNN.vcxproj -> D:\research\coder\SimpleCNN\SimpleCNN\x64\Debug\SimpleDeepLearningFramework.exe
