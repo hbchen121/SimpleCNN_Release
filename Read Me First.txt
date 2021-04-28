@@ -1,4 +1,0 @@
-环境：Visual Studio 2019
-默认使用：Release x64 进行运行
-运行前请将Mnist数据集（包含4个文件）存放在对应文件夹中，否则会提醒"Load mnist file failed."
-数据集下载地址：http://yann.lecun.com/exdb/mnist/
